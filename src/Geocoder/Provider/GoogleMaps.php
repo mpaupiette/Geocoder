@@ -247,7 +247,7 @@ final class GoogleMaps extends AbstractHttpProvider implements LocaleAwareProvid
                     'east'  => $coordinates->lng
                 );
             }
-
+            $resultSet['locationType']=$result->geometry->location_type;
             $results[] = array_merge($this->getDefaults(), $resultSet);
         }
 
