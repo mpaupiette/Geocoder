@@ -1,4 +1,4 @@
-{
+{ 
     "name": "willdurand/geocoder",
     "type": "library",
     "description": "The almost missing Geocoder PHP 5.4 library.",
